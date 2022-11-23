@@ -1,0 +1,36 @@
+insert into departments (name) values ("HR"), ("IT"), ("Marketing"), ("Finance"), ("Legal");
+
+insert into roles
+(job_title, salary, department_id) values ("Recruiter", 55000, 1),
+("HR Director", 95000, 1),
+("FullStack Web Developer", 85000, 2),
+("FrontEnd Web Developer", 75000, 2),
+("BackEnd Web Developer", 75000, 2),
+("Senior FullStack Web Developer", 95000, 2),
+("Marketing Analyst", 65000, 3),
+("Marketing Consultant", 75000, 3),
+("Marketing Coordinator", 100000, 3),
+("Management Accountant", 105000, 4),
+("Financial Accountant", 95000, 4),
+("Cheif Financial Officer", 115000, 4),
+("Legal Counsel", 75000, 5),
+("Corporate Lawyer", 85000, 5),
+("Litigation Lawyer", 85000, 5),
+("Managing Partner", 125000, 5);
+
+insert into employees (first_name, last_name, role_id, manager_id) values ("Ammar", "Hamid", 1, 2),
+("Mahum", "Siddiqui", 2, 2),
+("Kush", "Patel", 3, 6),
+("Erik", "De Luna", 4, 6),
+("Luca", "Beyrute", 5, 6),
+("Ali", "Maqsood", 6, 6),
+("Sharif", "Grewal", 7, 9),
+("Saheem", "Kever", 8, 9),
+("Aasvin", "Rdn", 9, 9),
+("Rajju", "Raj", 10, 12),
+("Fahim", "Syed", 11, 12),
+("Guransh", "Brar", 12, 12),
+("Brock", "Rock", 13, 16),
+("Misty", "Water", 14, 16),
+("Glen", "Bastien", 15, 16),
+("Ash", "Ketchum", 16, 16);
